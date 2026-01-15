@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sub Inspector of Schools | Adra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Details of the Sub Inspector of Schools, Adra Circle, School Education Department, Government of West Bengal">
+    <meta name="author" content="NIC, Government of West Bengal">
+
+    <!-- NIC-compliant internal CSS only -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            color: #000;
+            line-height: 1.6;
+            display: flex;
+            /* NEW: enable flex layout */
+            flex-direction: column;
+            /* NEW: arrange header, main, footer vertically */
+            min-height: 100vh;
+            /* NEW: ensure body takes full viewport height */
+        }
+
+
+        /* Header */
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 15px 10px;
+            border-bottom: 4px solid #ff9933;
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .emblem {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header-text p {
+            margin: 4px 0 0;
+            font-size: 14px;
+        }
+
+        /* Main content */
+        main {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 10px;
+            background-color: #fff;
+            border: 1px solid #d9d9d9;
+            flex: 1;
+            /* NEW: takes remaining space between header and footer */
+        }
+
+
+        section {
+            padding: 18px 22px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #003366;
+            border-bottom: 2px solid #ff9933;
+            padding-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #cccccc;
+            padding: 8px 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #e9f2ff;
+            color: #003366;
+            width: 35%;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            padding: 12px 10px;
+            margin-top: 20px;
+            flex-shrink: 0;
+            /* NEW: prevents footer from shrinking */
+            position: fixed;
+            /* NEW: fixes footer at viewport bottom */
+            width: 100%;
+            /* NEW: stretches footer across screen width */
+            bottom: 0;
+            /* NEW: aligns footer to bottom */
+        }
+
+
+        /* Accessibility */
+        :focus {
+            outline: 2px solid #ff9933;
+            outline-offset: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .emblem {
+                margin-bottom: 10px;
+            }
+
+            th {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <!-- Replace with official Ashoka emblem file if available -->
+            <img src="emblem.png" alt="State Emblem of India" class="emblem">
+            <div class="header-text">
+                <h1>Office of the Sub Inspector of Schools, Adra</h1>
+                <p>School Education Department, Government of West Bengal</p>
+            </div>
+        </div>
+    </header>
+
+    <main id="content">
+
+        <section>
+            <h2>Present Sub Inspector of Schools</h2>
+            <p>
+                The following officer is presently serving as the <strong>Sub Inspector of Schools (SI/S)</strong> for
+                the
+                Adra Circle under the School Education Department, Government of West Bengal.
+            </p>
+        </section>
+
+        <section>
+            <h2>Officer Details</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td>[Name of the Officer]</td>
+                </tr>
+                <tr>
+                    <th>Designation</th>
+                    <td>Sub Inspector of Schools (Adra Circle)</td>
+                </tr>
+                <tr>
+                    <th>Department</th>
+                    <td>School Education Department, Government of West Bengal</td>
+                </tr>
+                <tr>
+                    <th>Office Address</th>
+                    <td>Office of the Sub Inspector of Schools, Adra, Purulia, West Bengal</td>
+                </tr>
+                <tr>
+                    <th>Office Phone</th>
+                    <td>[Official Contact Number]</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>[Official Email ID]</td>
+                </tr>
+                <tr>
+                    <th>Office Hours</th>
+                    <td>Monday to Friday, 10:00 AM – 5:30 PM</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Role and Responsibilities</h2>
+            <p>
+                The Sub Inspector of Schools is responsible for academic supervision, inspection of schools, monitoring
+                of
+                teaching–learning standards, implementation of government educational schemes, and providing guidance to
+                school authorities and teachers within the Adra Circle.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Office of the Sub Inspector of Schools, Adra<br>
+        School Education Department, Government of West Bengal
+    </footer>
+
+</body>
+
+</html>

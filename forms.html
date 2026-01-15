@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teacher Form</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <!-- NAV -->
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a>
+            <ul>
+                <li><a href="welcome.html">Welcome</a></li>
+                <li><a href="objective.html">Objectives</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="about.html">About</a>
+            <ul>
+                <li><a href="office.html">Office</a></li>
+                <li><a href="jurisdiction.html">Jurisdiction</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="staff.html">Staff</a>
+            <ul>
+                <li><a href="sis.html">SIS</a></li>
+                <li><a href="office_staff.html">Office Staff</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="schools.html">Schools</a>
+            <ul>
+                <li><a href="high_schools.html">High Schools</a></li>
+                <li><a href="primary_schools.html">Primary Schools</a></li>
+            </ul>
+        </li>
+    
+        <!-- <li><a href="forms.html">Gallery</a>
+            <ul>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </li> -->
+    
+        <li><a href="gallery.html">Gallery</a>
+            <ul>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </li>
+
+        <li><a href="forms.html">Forms</a>
+            <ul>
+                <li><a href="forms.html">Teacher Form</a></li>
+                <li><a href="leave_application.html">Leave_application</a></li>
+            </ul>
+        </li>
+    
+    </ul>
+    </nav>
+    
+
+<!-- NOTICE -->
+<div class="notice-bar">
+    📢 Latest Notice: Teachers’ meeting on 20th January | Inspection schedule updated
+    </div>
+
+<script>
+    if (localStorage.getItem("loggedIn") !== "true") {
+        window.location.href = "login.html";
+    }
+</script>
+
+<section>
+<h2>Teacher Information Form</h2>
+
+<form id="teacherForm">
+    Name: <input type="text" id="name" required><br><br>
+    School: <input type="text" id="school" required><br><br>
+    Designation: <input type="text" id="designation"><br><br>
+    Mobile: <input type="text" id="mobile"><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+<br>
+<button onclick="downloadExcel()">Download Excel</button>
+<button onclick="logout()">Logout</button>
+
+</section>
+
+<script src="./js/form.js"></script>
+
+<footer>© WBSED</footer>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Office Staff | Office of the Sub Inspector of Schools, Adra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Details of office staff of the Office of the Sub Inspector of Schools, Adra Circle, School Education Department, Government of West Bengal">
+    <meta name="author" content="NIC, Government of West Bengal">
+
+    <!-- NIC-compliant internal CSS only -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            color: #000;
+            line-height: 1.6;
+            display: flex;
+            /* NEW: enable flex layout */
+            flex-direction: column;
+            /* NEW: arrange header, main, footer vertically */
+            min-height: 100vh;
+            /* NEW: ensure body takes full viewport height */
+        }
+
+
+        /* Header */
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 15px 10px;
+            border-bottom: 4px solid #ff9933;
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .emblem {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header-text p {
+            margin: 4px 0 0;
+            font-size: 14px;
+        }
+
+        /* Main content */
+        main {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 10px;
+            background-color: #fff;
+            border: 1px solid #d9d9d9;
+            flex: 1;
+            /* NEW: takes remaining space between header and footer */
+        }
+
+
+        section {
+            padding: 18px 22px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #003366;
+            border-bottom: 2px solid #ff9933;
+            padding-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+
+        th,
+        td {
+            border: 1px solid #cccccc;
+            padding: 8px 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #e9f2ff;
+            color: #003366;
+            text-align: center;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            padding: 12px 10px;
+            margin-top: 20px;
+            flex-shrink: 0;
+            /* NEW: prevents footer from shrinking */
+            position: fixed;
+            /* NEW: fixes footer at viewport bottom */
+            width: 100%;
+            /* NEW: stretches footer across screen width */
+            bottom: 0;
+            /* NEW: aligns footer to bottom */
+        }
+
+
+        /* Accessibility */
+        :focus {
+            outline: 2px solid #ff9933;
+            outline-offset: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .emblem {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <!-- Replace with official Ashoka emblem file if available -->
+            <img src="emblem.png" alt="State Emblem of India" class="emblem">
+            <div class="header-text">
+                <h1>Office of the Sub Inspector of Schools, Adra</h1>
+                <p>School Education Department, Government of West Bengal</p>
+            </div>
+        </div>
+    </header>
+
+    <main id="content">
+
+        <section>
+            <h2>Office Staff Details</h2>
+            <p>
+                The following officials and staff members assist the Office of the Sub Inspector of Schools, Adra
+                Circle,
+                in carrying out academic supervision, administrative functions, record maintenance, and coordination
+                with
+                schools and higher authorities.
+            </p>
+        </section>
+
+        <section>
+            <h2>Staff Information</h2>
+            <table>
+                <tr>
+                    <th>Sl. No.</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Contact Details</th>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">1</td>
+                    <td>[Name]</td>
+                    <td>Clerk / Office Assistant</td>
+                    <td>[Official Contact Number]</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">2</td>
+                    <td>[Name]</td>
+                    <td>Data Entry Operator</td>
+                    <td>[Official Contact Number]</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">3</td>
+                    <td>[Name]</td>
+                    <td>Group D / Support Staff</td>
+                    <td>[Official Contact Number]</td>
+                </tr>
+            </table>
+            <p><em>Note:</em> The above information is subject to change as per administrative orders of the School
+                Education Department.</p>
+        </section>
+
+        <section>
+            <h2>Functions of Office Staff</h2>
+            <p>
+                Office staff support the functioning of the Sub Inspector of Schools by maintaining official records,
+                processing correspondence, assisting in data management, coordinating inspections, and facilitating
+                communication between schools and the District Inspector of Schools.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Office of the Sub Inspector of Schools, Adra<br>
+        School Education Department, Government of West Bengal
+    </footer>
+
+</body>
+
+</html>

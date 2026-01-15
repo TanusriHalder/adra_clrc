@@ -1,0 +1,18 @@
+adra-sis-website/
+│
+├── home.html
+├── about.html
+├── staff.html
+├── schools.html
+├── forms.html
+├── gallery.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── form.js
+│
+├── images/
+│   └── logo.png   (your logo)

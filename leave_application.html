@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leave Application</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a>
+            <ul>
+                <li><a href="welcome.html">Welcome</a></li>
+                <li><a href="objective.html">Objectives</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="about.html">About</a>
+            <ul>
+                <li><a href="office.html">Office</a></li>
+                <li><a href="jurisdiction.html">Jurisdiction</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="staff.html">Staff</a>
+            <ul>
+                <li><a href="sis.html">SIS</a></li>
+                <li><a href="office_staff.html">Office Staff</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="schools.html">Schools</a>
+            <ul>
+                <li><a href="high_schools.html">High Schools</a></li>
+                <li><a href="primary_schools.html">Primary Schools</a></li>
+            </ul>
+        </li>
+    
+        <!-- <li><a href="forms.html">Gallery</a>
+            <ul>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </li> -->
+    
+        <li><a href="gallery.html">Gallery</a>
+            <ul>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </li>
+
+        <li><a href="forms.html">Forms</a>
+            <ul>
+                <li><a href="forms.html">Teacher Form</a></li>
+                <li><a href="leave_application.html">Leave_application</a></li>
+            </ul>
+        </li>
+    
+    </ul>
+    </nav>
+    
+
+<!-- NOTICE -->
+<div class="notice-bar">
+    📢 Latest Notice: Teachers’ meeting on 20th January | Inspection schedule updated
+    </div>
+
+<section>
+    <h2>Leave Application Form</h2>
+
+    <form id="leaveForm">
+        Name: <input type="text" id="name" required><br><br>
+        School: <input type="text" id="school" required><br><br>
+        Designation: <input type="text" id="designation" required><br><br>
+        Mobile: <input type="text" id="mobile" required><br><br>
+        Leave From: <input type="date" id="fromDate" required><br><br>
+        Leave To: <input type="date" id="toDate" required><br><br>
+        Reason: <textarea id="reason" rows="4" cols="50" required></textarea><br><br>
+        <button type="submit">Download Leave Application (PDF)</button>
+    </form>
+</section>
+
+<footer>
+© School Education Department, Government of West Bengal
+</footer>
+
+<!-- jsPDF library -->
+<script src="js/jspdf.umd.min.js"></script>
+<script src="js/leave.js"></script>
+</body>
+</html>

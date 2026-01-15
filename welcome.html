@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome | Office of the Sub Inspector of Schools, Adra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Official website of the Office of the Sub Inspector of Schools, Adra, School Education Department, Government of West Bengal">
+    <meta name="author" content="NIC, Government of West Bengal">
+
+    <!-- NIC-compliant minimal CSS (no external libraries) -->
+    <style>
+        /* Reset */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            color: #000000;
+            line-height: 1.6;
+            display: flex;
+            /* NEW: enable flex layout */
+            flex-direction: column;
+            /* NEW: arrange header, main, footer vertically */
+            min-height: 100vh;
+            /* NEW: ensure body takes full viewport height */
+        }
+
+        a {
+            color: #003366;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 15px 10px;
+            border-bottom: 4px solid #ff9933;
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .emblem {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header-text p {
+            margin: 4px 0 0;
+            font-size: 14px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #e6e6e6;
+            border-bottom: 1px solid #cccccc;
+        }
+
+        nav ul {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            border-right: 1px solid #cccccc;
+        }
+
+        nav ul li:last-child {
+            border-right: none;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* Main layout */
+        main {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 10px;
+            background-color: #ffffff;
+            border: 1px solid #d9d9d9;
+            flex: 1;
+            /* NEW: takes remaining space between header and footer */
+        }
+
+        section {
+            padding: 15px 20px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #003366;
+            border-bottom: 2px solid #ff9933;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            font-size: 12px;
+            text-align: center;
+            padding: 12px 10px;
+            margin-top: 20px;
+            flex-shrink: 0;
+            /* NEW: prevents footer from shrinking */
+            position: fixed;
+            /* NEW: fixes footer at viewport bottom */
+            width: 100%;
+            /* NEW: stretches footer across screen width */
+            bottom: 0;
+        }
+
+        /* Accessibility */
+        :focus {
+            outline: 2px solid #ff9933;
+            outline-offset: 2px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .emblem {
+                margin-bottom: 10px;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                border-right: none;
+                border-bottom: 1px solid #cccccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <!-- Replace src with official Ashoka emblem if available -->
+            <img src="emblem.png" alt="State Emblem of India" class="emblem">
+            <div class="header-text">
+                <h1>Office of the Sub Inspector of Schools, Adra</h1>
+                <p>School Education Department, Government of West Bengal</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- <nav aria-label="Main Navigation">
+    <ul>
+        <li><a href="welcome.html">Home</a></li>
+        <li><a href="#">About the Office</a></li>
+        <li><a href="#">Notices</a></li>
+        <li><a href="#">Downloads</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</nav> -->
+
+    <main id="content">
+
+        <section>
+            <h2>Welcome</h2>
+            <p>
+                Welcome to the official website of the <strong>Office of the Sub Inspector of Schools, Adra
+                    Circle</strong>.
+                This office functions under the School Education Department, Government of West Bengal, and is
+                responsible
+                for academic supervision, administrative coordination, and implementation of government educational
+                policies in schools under its jurisdiction.
+            </p>
+        </section>
+
+        <section>
+            <h2>Vision</h2>
+            <p>
+                To ensure a transparent, inclusive, and effective educational administration that promotes quality
+                teaching–learning practices and holistic development of students.
+            </p>
+        </section>
+
+        <section>
+            <h2>Key Functions</h2>
+            <ul>
+                <li>Inspection and academic supervision of schools</li>
+                <li>Monitoring of educational standards and compliance</li>
+                <li>Implementation of state and central government schemes</li>
+                <li>Guidance to school authorities and teaching staff</li>
+                <li>Support in administrative and academic matters</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Notices & Announcements</h2>
+            <p>
+                Official notices, circulars, inspection schedules, and important announcements will be published here
+                for the information of schools and stakeholders.
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact Details</h2>
+            <p>
+                <strong>Office of the Sub Inspector of Schools – Adra Circle</strong><br>
+                Address: To be updated<br>
+                Phone: Official number to be updated<br>
+                Email: Official email ID to be updated
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Office of the Sub Inspector of Schools, Adra<br>
+        School Education Department, Government of West Bengal
+    </footer>
+
+</body>
+
+</html>
