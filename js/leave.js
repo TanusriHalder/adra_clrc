@@ -10,6 +10,7 @@ document.getElementById("leaveForm").addEventListener("submit", function (e) {
     const fromDate = document.getElementById("fromDate").value;
     const toDate = document.getElementById("toDate").value;
     const reason = document.getElementById("reason").value;
+    const leave_type = document.getElementById("leave_type").value;
 
     const doc = new jsPDF();
 
@@ -31,7 +32,7 @@ I, ${name}, working as ${designation} at ${school}, request leave from
 
 ${fromDate} to ${toDate} due to ${reason}.
 
-Kindly grant me leave for the mentioned period.
+Kindly grant me ${leave_type} leave for the mentioned period.
 
 Thanking you,
 
@@ -48,4 +49,5 @@ ${name}
 
     doc.save(`${name}_Leave_Application.pdf`);
 });
+
 
