@@ -139,7 +139,7 @@ footer {
 }
 
 /* Mobile stacking */
-@media (max-width: 900px) {
+@media (max-width: 320px) {
     .navbar {
         flex-direction: column;
     }
@@ -148,5 +148,6 @@ footer {
         border: none;
     }
 }
+
 
 
