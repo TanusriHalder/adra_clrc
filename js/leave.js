@@ -31,8 +31,6 @@ I, ${name}, working as ${designation} at ${school}, request leave from
 
 ${fromDate} to ${toDate} due to ${reason}.
 
-// Mobile No: ${mobile}
-
 Kindly grant me leave for the mentioned period.
 
 Thanking you,
@@ -50,3 +48,4 @@ ${name}
 
     doc.save(`${name}_Leave_Application.pdf`);
 });
+
